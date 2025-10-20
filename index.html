@@ -10,20 +10,70 @@
 </head>
 
 <body>
-    <header></header>
-    <main>
+    <header class="container d-flex flex-column justify-content-center align-items-center mt-3 mb-3">
+        <h1>Bootstrap 5 Responsive Grid</h1>
+        <span>Layout a griglia con diversi breakpoint(sm, md, lg).</span>
+    </header>
+    <main class="p-3">
         <!-- TOP SECTION (2-COLONNE) -->
-        <section></section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 p-3 col-lg-4 bg-light">
+                    <h2>Colononna 1</h2>
+                    <p>larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e un terzo su
+                        dispositivi grandi .</p>
+                </div>
+                <div class="col-12 col-md-6 bg-secondary p-3 col-lg-8 text-white">
+                    <h2>Colononna 2</h2>
+                    <p>larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e un terzo su
+                        dispositivi grandi .</p>
+                </div>
+            </div>
+        </section>
         <!-- END TOP SECTION -->
 
 
         <!-- MID SECTION (3-COLONNE) -->
-        <section></section>
+        <section class="container mt-3 mb-3">
+            <div class="row">
+                <div class="col-6 p-3 bg-primary col-md-4 text-white">
+                    <h2>Colonna 1</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+                <div class="col-6 p-3 bg-success col-md-4 text-white">
+                    <h2>Colonna 2</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+                <div class="col-12 p-3 bg-danger col-md-4 text-white">
+                    <h2>Colonna 3</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+            </div>
+        </section>
         <!-- END MID SECTION -->
 
 
         <!-- BOTTOM SECTION (4-COLONNE) -->
-        <section></section>
+        <section class="container">
+            <div class="row">
+                <div class="col-6 p-3 bg-info text-white col-md-3">
+                    <h2>Colonna 1</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+                <div class="col-6 p-3 bg-warning text-white col-md-3">
+                    <h2>Colonna 2</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+                <div class="col-6 p-3 bg-dark text-white col-md-3">
+                    <h2>Colonna 3</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+                <div class="col-6 p-3 bg-light col-md-3">
+                    <h2>Colonna 4</h2>
+                    <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                </div>
+            </div>
+        </section>
         <!-- END BOTTOM SECTION -->
 
     </main>
